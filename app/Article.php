@@ -9,4 +9,5 @@ class Article extends Model
     public function contents(){
         return $this->hasMany(ArticleContent::class);
     }
+
 }
